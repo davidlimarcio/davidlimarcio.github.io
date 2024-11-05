@@ -1,0 +1,18 @@
+```css
+/* Custom styles to override or add to Tailwind */
+.custom-gradient {
+    background: linear-gradient(135deg, #8B008B 0%, #FF00FF 100%);
+}
+
+/* Optional: Add custom animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+```
+
