@@ -1,0 +1,19 @@
+```yaml
+# Basic site settings
+title: Your Name
+description: Personal Portfolio
+url: "https://yourusername.github.io"
+
+# Build settings
+markdown: kramdown
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+# Optional: Custom variables
+social:
+  github: yourusername
+  twitter: yourtwitter
+  linkedin: yourlinkedin
+```
+
